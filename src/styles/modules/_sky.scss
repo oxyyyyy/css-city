@@ -1,0 +1,25 @@
+$sky-duration: 20s;
+
+.sky {
+	width: 100%;
+	height: 40vh;
+	background: linear-gradient(180deg, #004da3, #84b5ec);
+	background-size: 400% 400%;
+	animation-name: skyANIMATION;
+	animation-duration: $sky-duration;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: both;
+}
+
+@keyframes skyANIMATION {
+	0% {
+		background-position: 50% 0%
+	}
+	50% {
+		background-position: 50% 100%
+	}
+	100% {
+		background-position: 50% 0%
+	}
+}

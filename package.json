@@ -1,0 +1,10 @@
+{
+  "name": "css-city",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Alexandr Vlasenko <olexandr.vlasenko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
